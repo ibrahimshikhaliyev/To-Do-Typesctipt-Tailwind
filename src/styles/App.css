@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@800&family=Outfit:wght@300;400;500;600;700;900&family=Poppins:wght@100;200;300;400;500&family=Racing+Sans+One&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Racing Sans One", cursive;
+}
+
+.app {
+  background: #2c2c2c;
+  height: 100vh;
+}
+
+body {
+  background: #2c2c2c;
+}
