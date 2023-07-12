@@ -71,7 +71,7 @@ const InputTask :React.FC<MyComponentProps> = ({ onTriggerUpdate }) => {
       placeholder='Enter the task'
       />
       <button 
-      className="bg-gray31 w-36 h-full absolute top-0 right-0 border-0 rounded-20 text-white capitalize" 
+      className="bg-gray31 w-36 h-full absolute top-0 -right-2 border-0 rounded-20 text-white capitalize" 
       onClick={e=>{
         onInputValidation()
       }}
